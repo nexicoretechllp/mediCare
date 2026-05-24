@@ -2,15 +2,9 @@
 
 import { useRef } from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { Activity, Shield, Stethoscope } from "lucide-react";
+import { Shield, Stethoscope } from "lucide-react";
 
 const industries = [
-  {
-    icon: Activity,
-    title: "Emergency and Trauma Care",
-    description: "Rapid response, stabilization, and urgent treatment support.",
-    status: "Live",
-  },
   {
     icon: Stethoscope,
     title: "Diagnostics and Specialist Clinics",
